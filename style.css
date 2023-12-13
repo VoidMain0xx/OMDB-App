@@ -1,0 +1,269 @@
+/* body styling */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* header */
+
+.header {
+  height: 50vh;
+  background-image: url(Images/edited\ pic.jpg);
+  background-size: cover;
+  background-color: whitesmoke;
+  background-blend-mode: multiply;
+  font-weight: bolder;
+}
+
+.header div h1 {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.header-link span a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  margin: 20px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.header-link span a:hover {
+  color: white;
+}
+
+.header-link span button {
+  position: absolute;
+  top: 47%;
+  left: 80%;
+  width: 170px;
+  height: 46px;
+  font-weight: 100;
+  font-size: 25px;
+  background-color: white;
+  color: white;
+  border-radius: 30px;
+}
+
+.header-link span button {
+  color: white;
+}
+
+.header-link span button:hover {
+  color: white;
+  background-color: grey;
+  transition: 0.8s;
+  transition-timing-function: ease-in-out;
+  border: none;
+}
+
+.header .search-box {
+  position: absolute;
+  top: 47%;
+  left: 30%;
+}
+
+.header .search-box .search-bar {
+  width: 500px;
+  height: 46px;
+  border-radius: 4px;
+  font-size: larger;
+  border: none;
+  text-align: center;
+}
+
+.header .search-box button {
+  width: 56px;
+  height: 46px;
+  font-size: larger;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.header .search-box button:hover {
+  color: black;
+  background-color: white;
+  transition: 0.8s;
+  transition-timing-function: ease-in-out;
+  border: none;
+}
+
+/* Movie Container */
+.movie-container {
+  border: 1px solid #f5f5f5;
+  width: 50%;
+  background-color: black;
+  padding: 20px;
+  margin: 9px auto;
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  box-shadow: 1px 2px #a1a1a1;
+}
+
+.movie-poster {
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.movie-poster img {
+  width: 100%;
+  height: auto;
+  border-radius: 19px;
+}
+
+.movie-details {
+  width: 100%;
+  padding: 0px 10px 0px 20px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  color: #f5f5f5;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-left: 7px;
+}
+
+.detail-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dh-ls {
+  width: 87%;
+}
+
+.dh-rs {
+  text-align: right;
+  width: 10%;
+  padding: 5px 0px 0px 0px;
+}
+
+.details-header h1 {
+  padding-bottom: 0px;
+}
+
+.italics-text {
+  font-size: 15px;
+  color: darkgray;
+}
+
+.details-ul {
+  list-style-type: none;
+  padding-left: 0px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+/* Main Container */
+
+.main {
+  height: 315px;
+  padding: 16px;
+}
+
+.main .start-exploring {
+  width: 70%;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 75px;
+}
+
+.main .start-exploring .movie-container {
+  width: 50%;
+  background-color: white;
+  padding: 20px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  box-shadow: 1px 2px #a1a1a1;
+}
+
+/* Favourite container */
+
+.fav-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70%;
+  padding: 10px;
+  margin: 50px auto;
+  background-color: whitesmoke;
+}
+
+.fav-item {
+  box-shadow: 1px 2px #a1a1a1;
+  margin: 5px 5px 25px 30px;
+  width: 25%;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.fav-item a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.fav-poster img {
+  width: 100%;
+  border: 50%;
+}
+
+.fav-details .fav-details-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 5px 5px 5px;
+}
+
+.fav-movie-name {
+  color: black;
+  font-size: 15px;
+  margin-bottom: 0rem;
+}
+
+.fav-movie-rating {
+  color: #888;
+  font-style: italic;
+  font-size: 13px;
+  margin-bottom: 0rem;
+}
+
+.dummy {
+  width: 500px;
+  height: 46px;
+  border-radius: 4px;
+  font-size: larger;
+  border: none;
+  text-align: center;
+}
