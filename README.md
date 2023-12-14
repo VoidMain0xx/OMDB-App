@@ -24,12 +24,15 @@ This project is an IMDb (Internet Movie Database) clone created using HTML, CSS,
 
 - **JavaScript:** Programming language for implementing dynamic features and interactions.
 
-- #Clone
+## Clone
 
 - (https://github.com/VoidMain0xx/OMDB-App)
 
+## Hosted link: 
+-https://voidmain0xx.github.io/OMDB-App/
 
-#SomeThing Impoertant !! 
+
+## Something Important
 
 
 --Make sure to replace `[Your Name]` with your actual name and customize the directory structure and file names based on your project organization. Also, you can add more sections and details as needed for your specific IMDb clone implementation.
