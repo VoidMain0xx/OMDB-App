@@ -24,6 +24,17 @@ This project is an IMDb (Internet Movie Database) clone created using HTML, CSS,
 
 - **JavaScript:** Programming language for implementing dynamic features and interactions.
 
+- #Clone
+
+-git clone https://github.com/your-username/imdb-clone.git
+
+
+#SomeThing Impoertant !! 
+
+
+--Make sure to replace `[Your Name]` with your actual name and customize the directory structure and file names based on your project organization. Also, you can add more sections and details as needed for your specific IMDb clone implementation.
+
+
 ## Project Structure
 
 ```plaintext
@@ -41,12 +52,3 @@ imdb-clone/
 |-- README.md
 
 
-#Clone
-
--git clone https://github.com/your-username/imdb-clone.git
-
-
-#SomeThing Impoertant !! 
-
-
---Make sure to replace `[Your Name]` with your actual name and customize the directory structure and file names based on your project organization. Also, you can add more sections and details as needed for your specific IMDb clone implementation.
