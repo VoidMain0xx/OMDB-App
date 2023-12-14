@@ -26,7 +26,7 @@ This project is an IMDb (Internet Movie Database) clone created using HTML, CSS,
 
 - #Clone
 
--git clone https://github.com/your-username/imdb-clone.git
+- (https://github.com/VoidMain0xx/OMDB-App)
 
 
 #SomeThing Impoertant !! 
